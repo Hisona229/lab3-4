@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title><?= 'My Site!' ?></title>
+ <title>My Site!</title>
  <!-- Meta -->
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta name="description" content="">
  <meta name="author" content="">
+ 
  <!-- Global CSS -->
  <link rel="stylesheet" href="assets/Stylesheet.css">
 </head>
@@ -15,24 +16,112 @@
 <!-- ******HEADER****** -->
 <header id="header" class="header">
     <div class="container">
-        <p class="story">story</p>
+        <p class="story">delicious</p>
         <div class="top-bar">
             <div class="block">
-                <p class="marcy">Marcy..</p>
+                <p class="marcy">Coffee!</p>
             </div>
         </div>
         <div class="nav-menu">
+            <div id="burger">
+                <span></span><span></span><span></span>
+            </div>
             <ul class="menu">
-                <li class="link">Home Page</li>
-                <li class="link">About Us</li>
-                <li class="link">Contact Us</li>
+                <li><a href="/">Home Page</a></li>
+                <li><a href="/about.php">About Us</a></li>
+                <li><a href="/login.php">Log in</a></li>
             </ul>
         </div>
     </div>
-
-
 </header>
 <main class="main content">
+    <div class="row custom-new">
+        <div class="div-text">
+            <h3 class="title">Ви коли-небудь куштували смачну каву?</h3>
+            <p class="text">
+                Я дам вам відповідь! ви не куштували супер смачної та ароматної кави якщо 
+                не буваали у нашій кавярні!
+            </p>
+            <p class="text">
+                Наша кав'ярня має широкий вибір кавових напоїв, включаючи еспресо, капучіно,
+                латте та багато інших. Ми використовуємо тільки найкращі зерна кави та
+                професійне обладнання для приготування напоїв, щоб забезпечити нашим клієнтам 
+                найкращий смак та аромат. 
+            </p>
+            <p class="text">
+                Крім того, ми пропонуємо різноманітні смаколики та десерти, які ідеально 
+                підходять до кави, щоб зробити ваш візит до нашої кав'ярні ще більш приємним.
+                Отже, якщо ви хочете справжнього задоволення від кави, не забудьте завітати 
+                до нашої кав'ярні та насолодитися нашими найкращими напоями та смаколиками. 
+                Ми завжди раді бачити вас та допомогти вам знайти свою улюблену каву!
+                Ласкаво просимо!
+            </p>
+            <p class="link">
+                <a href="article.php" class="menu_coffee">view menu</a>
+            </p>
+        </div>
+        <div class="image-block">
+            <img src="assets/img/coffee1.jpg" alt="Right Image" class="image">
+        </div>
+        <div class="img-absolute">
+            <img src="assets/img/coffee2.jpg" alt="Image on Top" class="img-above">
+        </div>
+    </div>
+    <div class="row">
+        <div class="div-quotation div-text">
+            <h3 class="title">Можливо ви шукаєте роботу?</h3>
+            <div class="image-block">
+                <img src="assets/img/barista.jpg" alt="barista image" class="image-barista">
+            </div>
+            <p class="text">
+                Якщо ви зацікавлені в пошуку роботи баристи, то це може бути чудова 
+                можливість для вас! Ми шукаємо людей з бажанням працювати в гостинній 
+                індустрії та надаємо сприятливі умови праці, щоб ви могли розвиватися 
+                і рости в цій професії.
+            </p>
+            <p class="text">
+                Наша компанія відкрита для всіх кваліфікованих та некваліфікованих 
+                працівників, які мають бажання навчатися та покращуватися у своїй роботі. 
+                Ми надаємо навчання та підтримку, щоб забезпечити вам необхідні знання 
+                та навички, які потрібні для успішного виконання роботи баристи.
+            </p>
+            <p class="text">
+                Якщо ви зацікавлені у праці баристою і бажаєте отримати більше інформації 
+                про нашу пропозицію, будь ласка, зв'яжіться з нами, і ми з радістю 
+                розповімо вам більше про цю можливість розвиватися в гостинній індустрії 
+                та стати частиною нашої команди.
+            </p>
+            <p class="link">
+                <a href="article.php" class="work">see the requirements</a>    
+            </p>
+        </div>
+    </div>
+    <!-- <div class="row iframe">
+        <iframe width="100%" height="560"
+            src=https://www.youtube.com/embed/9UfUV224JUI?autoplay=0&color=white 
+            frameborder="0" allowfullscreen
+        </iframe>
+    </div> -->
+    <section class="container_block">
+        <div class="row">
+            <div class="after-iframe">
+                <div class="image-block">
+                    <img src="assets/img/coffee3.jpg" alt="left image" class="image1">
+                    <div class="text">
+                        <h2>Цікавинка</h2>
+                        <p>Є цілі вершини гір засаджені кавовими рослинами</p>
+                    </div>
+                    <div class="f_text">
+                        <p>"День без кави на сніданок - поганий день. Тому я розпочинаю свій день з чарки ароматної кави."</p>
+                        <div class="author">
+                            <p>VEN DIESEL</p>
+                        </div>
+                        <a href="aricle.php" class="more">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <!-- ******FOOTER****** -->
 <footer class="footer">
